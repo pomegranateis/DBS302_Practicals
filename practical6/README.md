@@ -42,6 +42,27 @@ RBAC is a security principle where users are granted only the minimum permission
 
 ---
 
+## Table of Contents
+
+### Part A - Securing Redis
+- [4.1 Step 1: Verify Redis Installation and Start Server](#41-step-1-verify-redis-installation-and-start-server)
+- [4.2 Step 2: Configure ACL Users in redis.conf](#42-step-2-configure-acl-users-in-redisconf)
+- [4.3 Step 3: Test ACL Users](#43-step-3-test-acl-users)
+- [4.4 Step 4: Generate TLS Certificates for Redis](#44-step-4-generate-tls-certificates-for-redis)
+- [4.5 Step 5: Configure Redis for TLS](#45-step-5-configure-redis-for-tls)
+- [4.6 Step 6: Test TLS Connection to Redis](#46-step-6-test-tls-connection-to-redis)
+
+### Part B - Securing MongoDB
+- [5.1 Step 1: Start MongoDB and Create Root Admin User](#51-step-1-start-mongodb-and-create-root-admin-user)
+- [5.2 Step 2: Enable Authentication in mongod.conf](#52-step-2-enable-authentication-in-mongodconf)
+- [5.3 Step 3: Verify Authentication Enforcement](#53-step-3-verify-authentication-enforcement)
+- [5.4 Step 4: Create Application Role and User (RBAC)](#54-step-4-create-application-role-and-user-rbac)
+- [5.5 Step 5: Test RBAC for appUser](#55-step-5-test-rbac-for-appuser)
+- [5.6 Step 6: Generate TLS Certificates for MongoDB](#56-step-6-generate-tls-certificates-for-mongodb)
+- [5.7 Step 7: Configure MongoDB for TLS](#57-step-7-configure-mongodb-for-tls)
+- [5.8 Step 8: Test TLS Connection to MongoDB](#58-step-8-test-tls-connection-to-mongodb)
+
+
 ## 4. Part A - Securing Redis
 
 ### 4.1 Step 1: Verify Redis Installation and Start Server
