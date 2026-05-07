@@ -4,7 +4,6 @@
 **Module:** DBS302 - NoSQL Database Management  
 **Student:** Pema Tshering Yangchen  
 **Student ID:** 2230295  
-**Institution:** College of Science and Technology, Royal University of Bhutan  
 **Date:** 4 May 2026  
 
 ---
@@ -523,5 +522,3 @@ Both insert and find operations succeeded over an encrypted TLS connection.
 This practical demonstrated the implementation of three core security principles - authentication, encryption, and role-based access control - on both Redis and MongoDB. By disabling the default Redis user and configuring ACL rules, it was shown that different users can be given precisely scoped access to commands and key patterns. TLS certificates generated with OpenSSL were used to encrypt traffic between clients and both database servers, protecting data in transit. In MongoDB, enabling `authorization: enabled` and creating a custom role confined the application user to a single collection, preventing any unauthorized access to administrative data. The security audit confirmed that all negative test cases (unauthenticated access, unauthorized key or collection access, non-TLS connections) failed as expected, while all permitted operations succeeded. These security measures are fundamental to protecting NoSQL databases in real-world deployments.
 
 ---
-
-*End of Report*
