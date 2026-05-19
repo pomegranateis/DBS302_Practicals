@@ -696,7 +696,6 @@ python benchmark.py
 ![alt text](img/42.png)
 ### 6.2 Benchmark Results
 
-*(Fill in your actual numbers below after running)*
 
 | Database | Write Time (500 records) | Write Ops/sec | Read Time | Read Ops/sec |
 |---|---|---|---|---|
@@ -793,5 +792,3 @@ For a real social media platform, no single database is the right answer — eac
 This polyglot architecture — using each database where it is strongest — is how production social platforms like Twitter (Cassandra for timelines), Instagram (Redis for feeds, PostgreSQL for profiles), and LinkedIn (Espresso/Voldemort for profiles) are actually built.
 
 ---
-
-*Report prepared as part of DBS302 NoSQL Database Management, CST — Royal University of Bhutan, May 2025.*
